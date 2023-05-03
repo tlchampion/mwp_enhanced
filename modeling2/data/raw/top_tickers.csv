@@ -1,0 +1,755 @@
+symbol,name,category
+APTV,Aptiv,stock
+KO,Coca-Cola Company (The),stock
+DAL,Delta Air Lines,stock
+INTU,Intuit,stock
+ISRG,Intuitive Surgical,stock
+JKHY,Jack Henry & Associates,stock
+MRNA,Moderna,stock
+PLD,Prologis,stock
+QRVO,Qorvo,stock
+WHR,Whirlpool Corporation,stock
+D,Dominion Energy,stock
+GE,General Electric,stock
+KMB,Kimberly-Clark,stock
+PYPL,PayPal,stock
+PFG,Principal Financial Group,stock
+RSG,Republic Services,stock
+RMD,ResMed,stock
+SNPS,Synopsys,stock
+ULTA,Ulta Beauty,stock
+WAT,Waters Corporation,stock
+AMZN,Amazon,stock
+AIZ,Assurant,stock
+CF,CF Industries,stock
+CMS,CMS Energy,stock
+FOXA,Fox Corporation (Class A),stock
+ILMN,Illumina,stock
+MGM,MGM Resorts,stock
+UHS,Universal Health Services,stock
+BALL,Ball Corporation,stock
+CDAY,Ceridian,stock
+COST,Costco,stock
+EVRG,Evergy,stock
+GEN,Gen Digital,stock
+MTCH,Match Group,stock
+TAP,Molson Coors Beverage Company,stock
+MCO,Moody's Corporation,stock
+ORLY,O'Reilly Auto Parts,stock
+AAPL,Apple Inc.,stock
+BF.B,Brown–Forman,stock
+CAH,Cardinal Health,stock
+SCHW,Charles Schwab Corporation,stock
+FE,FirstEnergy,stock
+NOC,Northrop Grumman,stock
+ODFL,Old Dominion,stock
+OTIS,Otis Worldwide,stock
+O,Realty Income,stock
+VTRS,Viatris,stock
+ABBV,AbbVie,stock
+BLK,BlackRock,stock
+DRI,Darden Restaurants,stock
+FRC,First Republic Bank,stock
+GILD,Gilead Sciences,stock
+NEE,NextEra Energy,stock
+SHW,Sherwin-Williams,stock
+VRSN,Verisign,stock
+ZBRA,Zebra Technologies,stock
+ANET,Arista Networks,stock
+CMCSA,Comcast,stock
+NVR,"NVR, Inc.",stock
+ROL,"Rollins, Inc.",stock
+LUV,Southwest Airlines,stock
+WBA,Walgreens Boots Alliance,stock
+AMP,Ameriprise Financial,stock
+ADI,Analog Devices,stock
+COF,Capital One,stock
+CBOE,Cboe Global Markets,stock
+DVA,DaVita Inc.,stock
+XRAY,Dentsply Sirona,stock
+DPZ,Domino's,stock
+EXC,Exelon,stock
+EXR,Extra Space Storage,stock
+MCK,McKesson,stock
+SJM,J.M. Smucker Company (The),stock
+TMO,Thermo Fisher Scientific,stock
+VZ,Verizon,stock
+GWW,W. W. Grainger,stock
+XEL,Xcel Energy,stock
+T,AT&T,stock
+CNC,Centene Corporation,stock
+ETN,Eaton Corporation,stock
+ECL,Ecolab,stock
+PEAK,Healthpeak,stock
+HUM,Humana,stock
+J,Jacobs Solutions,stock
+KDP,Keurig Dr Pepper,stock
+PCAR,Paccar,stock
+PCG,PG&E Corporation,stock
+PM,Philip Morris International,stock
+SPGI,S&P Global,stock
+TER,Teradyne,stock
+ALK,Alaska Air Group,stock
+ALL,Allstate,stock
+BDX,Becton Dickinson,stock
+TECH,Bio-Techne,stock
+CDW,CDW,stock
+COO,CooperCompanies,stock
+FSLR,First Solar,stock
+NWL,Newell Brands,stock
+CRM,Salesforce,stock
+NOW,ServiceNow,stock
+CSCO,Cisco,stock
+LLY,Eli Lilly and Company,stock
+EQIX,Equinix,stock
+LDOS,Leidos,stock
+MSFT,Microsoft,stock
+TSN,Tyson Foods,stock
+VTR,Ventas,stock
+BRO,Brown & Brown,stock
+DXC,DXC Technology,stock
+EPAM,EPAM Systems,stock
+GIS,General Mills,stock
+HAL,Halliburton,stock
+V,Visa Inc.,stock
+MMM,3M,stock
+CFG,Citizens Financial Group,stock
+ICE,Intercontinental Exchange,stock
+KEY,KeyCorp,stock
+PNR,Pentair,stock
+SBUX,Starbucks,stock
+VMC,Vulcan Materials Company,stock
+ADP,ADP,stock
+CBRE,CBRE Group,stock
+ED,Consolidated Edison,stock
+ES,Eversource,stock
+FDX,FedEx,stock
+GNRC,Generac,stock
+HAS,Hasbro,stock
+HWM,Howmet Aerospace,stock
+PEP,PepsiCo,stock
+PPL,PPL Corporation,stock
+PHM,PulteGroup,stock
+RTX,Raytheon Technologies,stock
+VFC,VF Corporation,stock
+AEP,American Electric Power,stock
+FFIV,"F5, Inc.",stock
+GRMN,Garmin,stock
+HBAN,Huntington Bancshares,stock
+INVH,Invitation Homes,stock
+KMI,Kinder Morgan,stock
+LMT,Lockheed Martin,stock
+MRO,Marathon Oil,stock
+MKC,McCormick & Company,stock
+MDT,Medtronic,stock
+DGX,Quest Diagnostics,stock
+ZTS,Zoetis,stock
+APH,Amphenol,stock
+CMG,Chipotle Mexican Grill,stock
+CTSH,Cognizant,stock
+CMA,Comerica,stock
+EBAY,eBay,stock
+RE,Everest Re,stock
+FIS,FIS,stock
+MOS,Mosaic Company (The),stock
+SEDG,SolarEdge,stock
+TJX,TJX Companies,stock
+WAB,Wabtec,stock
+AIG,American International Group,stock
+CEG,Constellation Energy,stock
+CSX,CSX,stock
+DHR,Danaher Corporation,stock
+GPN,Global Payments,stock
+HCA,HCA Healthcare,stock
+HON,Honeywell,stock
+IFF,International Flavors & Fragrances,stock
+RJF,Raymond James,stock
+STT,State Street Corporation,stock
+STE,Steris,stock
+ACN,Accenture,stock
+ADM,ADM,stock
+AKAM,Akamai,stock
+APA,APA Corporation,stock
+CE,Celanese,stock
+CCI,Crown Castle,stock
+DLTR,Dollar Tree,stock
+FICO,Fair Isaac,stock
+LW,Lamb Weston,stock
+MAA,Mid-America Apartment Communities,stock
+NCLH,Norwegian Cruise Line Holdings,stock
+PFE,Pfizer,stock
+PTC,PTC,stock
+REG,Regency Centers,stock
+RCL,Royal Caribbean Group,stock
+SWK,Stanley Black & Decker,stock
+LNT,Alliant Energy,stock
+BIO,Bio-Rad,stock
+CINF,Cincinnati Financial,stock
+CME,CME Group,stock
+MNST,Monster Beverage,stock
+PRU,Prudential Financial,stock
+RHI,Robert Half,stock
+ROK,Rockwell Automation,stock
+SWKS,Skyworks Solutions,stock
+TSCO,Tractor Supply,stock
+EQR,Equity Residential,stock
+FAST,Fastenal,stock
+FITB,Fifth Third Bank,stock
+LKQ,LKQ Corporation,stock
+MKTX,MarketAxess,stock
+UAL,United Airlines Holdings,stock
+VLO,Valero Energy,stock
+AAL,American Airlines Group,stock
+WRB,Berkley,stock
+BK,BNY Mellon,stock
+BWA,BorgWarner,stock
+CVX,Chevron Corporation,stock
+DE,John Deere,stock
+EMN,Eastman Chemical Company,stock
+F,Ford Motor Company,stock
+IT,Gartner,stock
+KIM,Kimco Realty,stock
+PH,Parker Hannifin,stock
+WFC,Wells Fargo,stock
+WELL,Welltower,stock
+WMB,Williams Companies,stock
+WTW,Willis Towers Watson,stock
+XYL,Xylem Inc.,stock
+ALGN,Align Technology,stock
+ANSS,Ansys,stock
+AMAT,Applied Materials,stock
+BBWI,"Bath & Body Works, Inc.",stock
+ESS,Essex Property Trust,stock
+HSIC,Henry Schein,stock
+LIN,Linde plc,stock
+LOW,Lowe's,stock
+PAYX,Paychex,stock
+TMUS,T-Mobile US,stock
+TRGP,Targa Resources,stock
+TRV,Travelers Companies (The),stock
+CB,Chubb Limited,stock
+C,Citigroup,stock
+CAG,Conagra Brands,stock
+LEN,Lennar,stock
+LYV,Live Nation Entertainment,stock
+PAYC,Paycom,stock
+PEG,Public Service Enterprise Group,stock
+BKR,Baker Hughes,stock
+BA,Boeing,stock
+CTLT,Catalent,stock
+CVS,CVS Health,stock
+EFX,Equifax,stock
+MAR,Marriott International,stock
+MCD,McDonald's,stock
+MSCI,MSCI,stock
+QCOM,Qualcomm,stock
+BBY,Best Buy,stock
+CRL,Charles River Laboratories,stock
+DLR,Digital Realty,stock
+DUK,Duke Energy,stock
+EXPE,Expedia Group,stock
+BEN,Franklin Templeton,stock
+SO,Southern Company,stock
+AMCR,Amcor,stock
+BR,Broadridge Financial Solutions,stock
+CLX,Clorox,stock
+FDS,FactSet,stock
+GM,General Motors,stock
+HST,Host Hotels & Resorts,stock
+IDXX,Idexx Laboratories,stock
+JNPR,Juniper Networks,stock
+L,Loews Corporation,stock
+MPC,Marathon Petroleum,stock
+PGR,Progressive Corporation,stock
+RF,Regions Financial Corporation,stock
+TTWO,Take-Two Interactive,stock
+UPS,United Parcel Service,stock
+URI,United Rentals,stock
+VRSK,Verisk,stock
+A,Agilent Technologies,stock
+BSX,Boston Scientific,stock
+CTRA,Coterra,stock
+MCHP,Microchip Technology,stock
+NDAQ,"Nasdaq, Inc.",stock
+RL,Ralph Lauren Corporation,stock
+SEE,Sealed Air,stock
+SYF,Synchrony Financial,stock
+TT,Trane Technologies,stock
+YUM,Yum! Brands,stock
+AWK,American Water Works,stock
+ENPH,Enphase,stock
+FRT,Federal Realty,stock
+IP,International Paper,stock
+JBHT,J.B. Hunt,stock
+MDLZ,Mondelez International,stock
+MS,Morgan Stanley,stock
+MSI,Motorola Solutions,stock
+PKI,PerkinElmer,stock
+TDY,Teledyne Technologies,stock
+TXN,Texas Instruments,stock
+TXT,Textron,stock
+CI,Cigna,stock
+HIG,Hartford (The),stock
+KR,Kroger,stock
+NTAP,NetApp,stock
+AES,AES Corporation,stock
+ALLE,Allegion,stock
+CARR,Carrier Global,stock
+HPQ,HP Inc.,stock
+K,Kellogg's,stock
+MRK,Merck & Co.,stock
+NWS,News Corp (Class B),stock
+NSC,Norfolk Southern Railway,stock
+OXY,Occidental Petroleum,stock
+ORCL,Oracle Corporation,stock
+UDR,"UDR, Inc.",stock
+AJG,Arthur J. Gallagher & Co.,stock
+AZO,AutoZone,stock
+BAX,Baxter International,stock
+CPRT,Copart,stock
+DTE,DTE Energy,stock
+EW,Edwards Lifesciences,stock
+IR,Ingersoll Rand,stock
+NDSN,Nordson Corporation,stock
+PPG,PPG Industries,stock
+PWR,Quanta Services,stock
+UNH,UnitedHealth Group,stock
+BIIB,Biogen,stock
+AVGO,Broadcom Inc.,stock
+CMI,Cummins,stock
+DISH,Dish Network,stock
+EA,Electronic Arts,stock
+FLT,Fleetcor,stock
+FTV,Fortive,stock
+IVZ,Invesco,stock
+PNW,Pinnacle West,stock
+WDC,Western Digital,stock
+WRK,WestRock,stock
+ALB,Albemarle Corporation,stock
+GOOGL,Alphabet Inc. (Class A),stock
+CNP,CenterPoint Energy,stock
+EL,Estée Lauder Companies (The),stock
+GL,Globe Life,stock
+IEX,IDEX Corporation,stock
+IPG,Interpublic Group of Companies (The),stock
+JNJ,Johnson & Johnson,stock
+SLB,Schlumberger,stock
+TSLA,"Tesla, Inc.",stock
+AMGN,Amgen,stock
+ELV,Elevance Health,stock
+LHX,L3Harris,stock
+LVS,Las Vegas Sands,stock
+PNC,PNC Financial Services,stock
+ROP,Roper Technologies,stock
+SRE,Sempra Energy,stock
+WBD,Warner Bros. Discovery,stock
+CTAS,Cintas,stock
+EOG,EOG Resources,stock
+GEHC,GE HealthCare,stock
+KLAC,KLA Corporation,stock
+MHK,Mohawk Industries,stock
+NWSA,News Corp (Class A),stock
+NRG,NRG Energy,stock
+SYY,Sysco,stock
+TROW,T. Rowe Price,stock
+TGT,Target Corporation,stock
+AXP,American Express,stock
+CHRW,C.H. Robinson,stock
+CAT,Caterpillar Inc.,stock
+DVN,Devon Energy,stock
+EQT,EQT,stock
+FTNT,Fortinet,stock
+JCI,Johnson Controls,stock
+ROST,Ross Stores,stock
+SYK,Stryker Corporation,stock
+TDG,TransDigm Group,stock
+BAC,Bank of America,stock
+BRK.B,Berkshire Hathaway,stock
+BXP,Boston Properties,stock
+OGN,Organon & Co.,stock
+SPG,Simon Property Group,stock
+SNA,Snap-on,stock
+TPR,"Tapestry, Inc.",stock
+WM,Waste Management,stock
+AFL,Aflac,stock
+BKNG,Booking Holdings,stock
+BG,Bunge Limited,stock
+HD,Home Depot (The),stock
+PODD,Insulet,stock
+POOL,Pool Corporation,stock
+PG,Procter & Gamble,stock
+VICI,Vici Properties,stock
+AOS,A. O. Smith,stock
+ACGL,Arch Capital Group,stock
+CPT,Camden Property Trust,stock
+NEM,Newmont,stock
+NVDA,Nvidia,stock
+PARA,Paramount Global,stock
+STLD,Steel Dynamics,stock
+ARE,Alexandria Real Estate Equities,stock
+GOOG,Alphabet Inc. (Class C),stock
+AMT,American Tower,stock
+CTVA,Corteva,stock
+FOX,Fox Corporation (Class B),stock
+GPC,Genuine Parts Company,stock
+NFLX,Netflix,stock
+WY,Weyerhaeuser,stock
+AON,Aon,stock
+ATO,Atmos Energy,stock
+ADSK,Autodesk,stock
+CDNS,Cadence Design Systems,stock
+KMX,CarMax,stock
+DG,Dollar General,stock
+HSY,Hershey's,stock
+LH,LabCorp,stock
+MA,Mastercard,stock
+MET,MetLife,stock
+MPWR,Monolithic Power Systems,stock
+OMC,Omnicom Group,stock
+SBAC,SBA Communications,stock
+TEL,TE Connectivity,stock
+WMT,Walmart,stock
+ABT,Abbott,stock
+CZR,Caesars Entertainment,stock
+CL,Colgate-Palmolive,stock
+COP,ConocoPhillips,stock
+GLW,Corning Inc.,stock
+DOW,Dow Inc.,stock
+IQV,IQVIA,stock
+MTB,M&T Bank,stock
+ON,ON Semiconductor,stock
+PKG,Packaging Corporation of America,stock
+ZION,Zions Bancorporation,stock
+CPB,Campbell Soup Company,stock
+CSGP,CoStar Group,stock
+DXCM,Dexcom,stock
+DFS,Discover Financial,stock
+ETR,Entergy,stock
+XOM,ExxonMobil,stock
+GD,General Dynamics,stock
+HRL,Hormel Foods,stock
+INTC,Intel,stock
+MLM,Martin Marietta Materials,stock
+NTRS,Northern Trust,stock
+TFX,Teleflex,stock
+AME,Ametek,stock
+DD,DuPont,stock
+EMR,Emerson Electric,stock
+FISV,Fiserv,stock
+HPE,Hewlett Packard Enterprise,stock
+HLT,Hilton Worldwide,stock
+ITW,Illinois Tool Works,stock
+IRM,Iron Mountain,stock
+STX,Seagate Technology,stock
+VRTX,Vertex Pharmaceuticals,stock
+ZBH,Zimmer Biomet,stock
+AVY,Avery Dennison,stock
+FANG,Diamondback Energy,stock
+HOLX,Hologic,stock
+HII,Huntington Ingalls Industries,stock
+KHC,Kraft Heinz,stock
+MTD,Mettler Toledo,stock
+NKE,"Nike, Inc.",stock
+NXPI,NXP Semiconductors,stock
+TYL,Tyler Technologies,stock
+FMC,FMC Corporation,stock
+GS,Goldman Sachs,stock
+INCY,Incyte,stock
+MAS,Masco,stock
+MU,Micron Technology,stock
+PXD,Pioneer Natural Resources,stock
+USB,U.S. Bank,stock
+UNP,Union Pacific Corporation,stock
+WST,West Pharmaceutical Services,stock
+AEE,Ameren,stock
+CHTR,Charter Communications,stock
+FCX,Freeport-McMoRan,stock
+IBM,IBM,stock
+KEYS,Keysight,stock
+NUE,Nucor,stock
+PSX,Phillips 66,stock
+ADBE,Adobe Inc.,stock
+AVB,AvalonBay Communities,stock
+CCL,Carnival,stock
+DIS,Disney,stock
+EIX,Edison International,stock
+EXPD,Expeditors International,stock
+JPM,JPMorgan Chase,stock
+LRCX,Lam Research,stock
+REGN,Regeneron,stock
+TFC,Truist,stock
+AAP,Advance Auto Parts,stock
+APD,Air Products and Chemicals,stock
+AMD,AMD,stock
+ABC,AmerisourceBergen,stock
+STZ,Constellation Brands,stock
+ETSY,Etsy,stock
+MMC,Marsh McLennan,stock
+META,Meta Platforms,stock
+MOH,Molina Healthcare,stock
+NI,NiSource,stock
+OKE,ONEOK,stock
+ATVI,Activision Blizzard,stock
+MO,Altria,stock
+BMY,Bristol Myers Squibb,stock
+CHD,Church & Dwight,stock
+DHI,D.R. Horton,stock
+DOV,Dover Corporation,stock
+HES,Hess Corporation,stock
+LNC,Lincoln Financial,stock
+LYB,LyondellBasell,stock
+PSA,Public Storage,stock
+TRMB,Trimble Inc.,stock
+WEC,WEC Energy Group,stock
+WYNN,Wynn Resorts,stock
+VCLT,Vanguard Long-Term Corporate Bond ETF,bond
+STIP,iShares Barclays 0-5 Year TIPS ETF,bond
+SPIB,SPDR Portfolio Intermediate Term Corporate Bond ETF,bond
+SPMB,SPDR Portfolio Mortgage Backed Bond ETF,bond
+EAGG,iShares ESG U.S. Aggregate Bond ETF,bond
+GSY,Invesco Enhanced Ultra-Short Bond ETF,bond
+IEF,Ishares 7-10 Year Treasury Bond ETF,bond
+SGOV,iShares 0-3 Month Treasury Bond ETF,bond
+VGSH,Vanguard Short-Term Government Bond ETF,bond
+VGLT,Vanguard Long-Term Government Bond ETF,bond
+SHV,iShares Short Treasury Bond ETF,bond
+VMBS,Vanguard Mortgage-Backed Securities ETF,bond
+BSCO,Invesco BulletShrs 2024 Corp Bond ETF,bond
+SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,bond
+BOND,PIMCO Active Bond ETF,bond
+EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,bond
+VGIT,Vanguard Intermediate-Term Government Bond ETF,bond
+JAAA,Janus Henderson AAA CLO ETF,bond
+VTIP,Vanguard Short-Term Inflation-Protected Securities ETF,bond
+SPAB,SPDR Portfolio Aggregate Bond ETF,bond
+LMBS,First Trust Low Duration Opportunities ETF,bond
+FMB,First Trust Managed Municipal ETF,bond
+IUSB,iShares Core Total USD Bond Market ETF,bond
+HYG,iShares iBoxx High Yield Corporate Bond ETF,bond
+FIXD,First Trust TCW Opportunistic Fixed Income ETF,bond
+HYMB,SPDR Nuveen S&P High Yield Municipal Bond ETF,bond
+IGIB,iShares Intermediate-Term Corporate Bond ETF,bond
+FLOT,iShares Floating Rate Note ETF,bond
+SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,bond
+VUSB,Vanguard Ultra-Short Bond ETF,bond
+USIG,iShares Broad USD Investment Grade Corporate Bond ETF,bond
+NEAR,iShares Short Maturity Bond ETF,bond
+FLRN,SPDR Barclays Capital Investment Grade Floating Rate ETF,bond
+VTEB,Vanguard Tax-Exempt Bond ETF,bond
+USHY,iShares Broad USD High Yield Corporate Bond ETF,bond
+TDTT,FlexShares iBoxx 3-Year Target Duration TIPS Index Fund ETF,bond
+IGSB,iShares Short-Term Corporate Bond ETF,bond
+USFR,WisdomTree Floating Rate Treasury Fund ETF,bond
+HYD,Market Vectors High Yield Municipal Index ETF,bond
+PZA,Invesco National AMT-Free Municipal Bond ETF,bond
+DFCF,Dimensional Core Fixed Income ETF,bond
+GOVT,iShares Barclays U.S. Treasury Bond ETF,bond
+SCHP,Schwab U.S. TIPS ETF,bond
+SPTI,SPDR Portfolio Intermediate Term Treasury ETF,bond
+FTSL,First Trust Senior Loan ETF,bond
+SUB,iShares Short-Term National Muni Bond ETF,bond
+SHM,SPDR Nuveen Bloomberg Barclays Short Term Municipal Bond ETF,bond
+TLT,iShares 20+ Year Treasury Bond ETF,bond
+TLH,iShares 10-20 Year Treasury Bond ETF,bond
+JMST,JPMorgan Ultra-Short Municipal ETF,bond
+BIV,Vanguard Intermediate-Term Bond ETF,bond
+TOTL,SPDR DoubleLine Total Return Tact ETF,bond
+IBDO,iShares iBonds Dec 2023 Corporate ETF,bond
+JNK,SPDR Barclays High Yield Bond ETF,bond
+ICSH,iShares Liquidity Income ETF,bond
+PULS,PGIM Ultra Short Bond ETF,bond
+IBTE,iShares iBonds Dec 2024 Term Treasury ETF,bond
+CMF,iShares California Muni Bond ETF,bond
+LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,bond
+SJNK,Barclays Short Term High Yield Bond ETF,bond
+IBDP,iShares iBonds Dec 2024 Corporate ETF,bond
+SPSB,SPDR Portfolio Short Term Corporate Bond ETF,bond
+BIL,SPDR Barclays Capital 1-3 Month T-Bill ETF,bond
+MBB,iShares MBS Bonds ETF,bond
+SCHO,Schwab Short-Term U.S. Treasury ETF,bond
+IEI,iShares 3-7 Year Treasury Bond ETF,bond
+SPTL,SPDR Portfolio Long Term Treasury ETF,bond
+GBIL,Goldman Sachs Treasury Access 0-1 Year ETF,bond
+SCHR,Schwab Intermediate-Term U.S. Treasury ETF,bond
+FBND,Fidelity Total Bond ETF,bond
+VNLA,Janus Short Duration Income ETF,bond
+MINT,PIMCO Enhanced Short Maturity Strategy Fund ETF,bond
+VWOB,Vanguard Emerging Markets Government Bond ETF,bond
+BSCN,Invesco BulletShares 2023 Corporate Bond ETF,bond
+BND,Vanguard Total Bond Market ETF,bond
+SRLN,SPDR Blackstone/GSO Senior Loan ETF,bond
+ISTB,iShares Core 1-5 Year US Bond ETF,bond
+BSV,Vanguard Short-Term Bond ETF,bond
+MUB,iShares National Muni Bond ETF,bond
+ANGL,Market Vectors Fallen Angel High Yield Bond ETF,bond
+SPIP,SPDR Portfolio TIPS ETF,bond
+ITM,Market Vectors Intermediate Municipal ETF,bond
+AGG,iShares Core U.S. Aggregate Bond ETF,bond
+VCIT,Vanguard Intermediate-Term Corporate Bond ETF,bond
+HYLB,Xtrackers USD High Yield Corporate Bond ETF,bond
+SCHZ,Schwab U.S. Aggregate Bond ETF,bond
+SPTS,SPDR Portfolio Short Term Treasury ETF,bond
+BLV,Vanguard Long-Term Bond ETF,bond
+BKLN,Invesco Senior Loan Portfolio ETF,bond
+VCSH,Vanguard Short-Term Corporate Bond ETF,bond
+JPST,JPMorgan Ultra-Short Income ETF,bond
+SHY,Barclays 1-3 Year Treasury Bond ETF,bond
+FTSM,First Trust Enhanced Short Maturity ETF,bond
+IBTD,iShares iBonds Dec 2023 Term Treasury ETF,bond
+BSCP,Invesco BulletShares 2025 Corporate Bond ETF,bond
+TIP,iShares TIPS Bond Fund ETF,bond
+TFI,SPDR Nuveen Bloomberg Barclays Municipal Bond ETF,bond
+TFLO,iShares Treasury Floating Rate Bond ETF,bond
+GVI,iShares Barclays Intermediate Government/Credit Bond Fund ETF,bond
+IBDQ,iShares iBonds Dec 2025 Corporate ETF,bond
+FTGC,First Trust Global Tactical Commodity Strategy Fund ETF,commodity
+BNO,United States Brent Crude Oil ETF,commodity
+ULE,Ultra Euro (2x) ETF,commodity
+DJP,iPath Dow Jones-UBS Commodity Index Total Return ETN,commodity
+FXB,Invesco CurrencyShares British Pound Dollar Trust ETF,commodity
+CORN,Teucrium Corn  ETF,commodity
+SOYB,Teucruim Soybean Fund ETF,commodity
+CYB,WisdomTree Dreyfus Chinese Yuan Fund ETF,commodity
+DJCB,ETRACS Bloomberg Commodity Index Total Return ETN Series B,commodity
+DBA,Invesco DB Agriculture Fund ETF,commodity
+DBO,Invesco DB Oil Fund ETF,commodity
+FXC,Invesco CurrencyShares Canadian Dollar Trust ETF,commodity
+COW,iPathA Series B Bloomberg Livestock Subindex Total Return ETN,commodity
+JO,iPath Series B Bloomberg Coffee Subindex Total Return ETN,commodity
+AGQ,ProShares Ultra 2X Silver ETF,commodity
+IAUF,iShares Gold Strategy ETF,commodity
+CCRV,iShares Commodity Curve Carry Strategy ETF,commodity
+LD,iPath Dow Jones-UBS Lead Subindex Total ReturnSM ETN,commodity
+USDU,WisdomTree Bloomberg USD Bullish ETF,commodity
+HGER,Harbor All-Weather Inflation Focus ETF,commodity
+RJI,ELEMENTS Linked to the Rogers International Commodity Index ETN,commodity
+FXA,Invesco CurrencyShares Australian Dollar Trust ETF,commodity
+SDCI,USCF SummerHaven Dynamic Commodity Strategy No K-1 ETF,commodity
+JJG,iPathA Series B Bloomberg Grains Subindex Total Return ETN,commodity
+SBUG,iPath Silver ETN,commodity
+SGOL,Aberdeen Physical Swiss Gold Shares ETF,commodity
+COMT,iShares Commodities Select Strategy ETF,commodity
+DBB,Invesco DB Base Metals Fund ETF,commodity
+COMB,GraniteShares Bloomberg Commodity Broad Strategy No K-1 ETF,commodity
+COM,Direxion Auspice Broad Commodity Strategy ETF,commodity
+JJU,iPathA Series B Bloomberg Aluminum Subindex Total Return ETN,commodity
+UUP,US Dollar Index Bullish ETF,commodity
+KOLD,ProShares UltraShort DJ-UBS Natural Gas ETF,commodity
+CEW,WisdomTree Dreyfus Emerging Currency ETF,commodity
+GBUG,Pacer iPath Gold ETNs,commodity
+GSP,iPath S&P GSCI Total Return Index ETN,commodity
+JJA,iPathA Series B Bloomberg Agriculture Subindex Total Return ETN,commodity
+JJC,iPathA Series B Bloomberg Copper Subindex Total Return ETN,commodity
+BITO,ProShares Bitcoin Strategy ETF,commodity
+UDN,PowersShares DB US Dollar Index Bearish ETF,commodity
+XBTF,VanEck Bitcoin Strategy ETF,commodity
+BCM,iPath Pure Beta Broad Commodity ETN,commodity
+GAZ,iPath Series B Bloomberg Natural Gas Subindex Total Return ETN,commodity
+UGL,Ultra (2x) Gold ETF,commodity
+TAGS,Teucrium Agricultural ETF,commodity
+DZZ,DB Gold Double Short ETN,commodity
+JJT,iPathA Series B Bloomberg Tin Subindex Total Return ETN,commodity
+BCD,Aberdeen Bloomberg All Commodity Longer Dated K-1 Free Strategy ETF,commodity
+PDBC,Invesco DB Optimum Yield Diversified Commodity Strategy ETF,commodity
+PALL,Aberdeen Physical Palladium Shares ETF,commodity
+YCL,ProShares Ultra Yen ETF,commodity
+RJA,ELEMENTS Linked to the Rogers International Commodity Index – Agriculture Total Return ETN,commodity
+UCIB,ETRACS CMCI Total Return Series B ETN,commodity
+AAAU,Perth Mint Physical Gold ETF,commodity
+GLDM,SPDR Gold MiniShares Trust ETF,commodity
+GLTR,Aberdeen Physical Precious Metals Basket Shares ETF,commodity
+GLL,UltraShort (2x) Gold ETF,commodity
+JJM,iPathA Series B Bloomberg Industrial Metals Subindex Total Return ETN,commodity
+USL,United States 12 Month Oil Fund  ETF,commodity
+OILU,MicroSectors Oil & Gas Exp. & Prod. 3x Leveraged ETN,commodity
+PGM,iPathA Series B Bloomberg Platinum Subindex Total Return ETN,commodity
+IAU,iShares COMEX Gold Trust ETF,commodity
+RJZ,ELEMENTS Linked to the Rogers International Commodity Index – Metals Total Return ETN,commodity
+FAAR,First Trust Alternative Absolute Return Strategy ETF,commodity
+SLV,iShares Silver Trust ETF,commodity
+CMDY,iShares Bloomberg Roll Select Commodity Strategy ETF,commodity
+PPLT,Aberdeen Physical Platinum Shares ETF,commodity
+UCO,Ultra Bloomberg Crude Oil (2x) ETF,commodity
+NIB,iPath Dow Jones-UBS Cocoa Subindex Total Return ETN,commodity
+OILD,MicroSectors Oil & Gas Exp. & Prod. -3x Inverse Leveraged ETN,commodity
+OUNZ,Merk Gold Trust ETF,commodity
+DGL,Invesco DB Gold Fund ETF,commodity
+YCS,ProShares UltraShort Yen ETF,commodity
+DBV,Invesco DB G10 Currency Harvest ETF,commodity
+GLD,SPDR Gold Shares ETF,commodity
+KMLM,KFA Mount Lucas Index Strategy ETF,commodity
+DGP,DB Gold Double Long ETN,commodity
+EUO,UltraShort Euro (2x) ETF,commodity
+UNL,United States 12 Month Natural Gas Fund ETF,commodity
+GRU,ELEMENTS Linked to the MLCX Grains Index ETN,commodity
+SGG,iPathA Series B Bloomberg Sugar Subindex Total Return ETN,commodity
+HCOM,Hartford Schroders Commodity Strategy ETF,commodity
+DBS,Invesco DB Silver Fund ETF,commodity
+JJE,iPathA Series B Bloomberg Energy Subindex Total Return ETN,commodity
+JJP,iPathA Series B Bloomberg Precious Metals Subindex Total Return ETN,commodity
+RJN,ELEMENTS Rogers International Commodity Index – Energy Total Return ETN,commodity
+DBC,Invesco DB Commodity Index Tracking Fund ETF,commodity
+GCC,GreenHaven Continuous Commodity Index Fund ETF,commodity
+OILK,ProShares K-1 Free Crude Oil Strategy ETF,commodity
+DGZ,PowerShares Gold Short ETN,commodity
+BCI,Aberdeen Bloomberg All Commodity K-1 Free Strategy ETF,commodity
+CANE,Teucrium CANE Fund ETF,commodity
+ZSL,UltraShort (2x) Silver ETF,commodity
+BCIM,abrdn Bloomberg Industrial Metals Strategy K-1 Free ETF,commodity
+USCI,United States Commodity Index  ETF,commodity
+BAL,iPathA Series B Bloomberg Cotton Subindex Total Return ETN,commodity
+BOIL,ProShares Ultra 2x DJ-UBS Natural Gas ETF,commodity
+WGLD,Wilshire wShares Enhanced Gold Trust ETF,commodity
+BDRY,Breakwave Dry Bulk Shipping ETF,commodity
+BITS,Global X Blockchain & Bitcoin Strategy ETF,commodity
+FXF,Invesco CurrencyShares Swiss Franc Trust ETF,commodity
+CPER,United States Copper ETF,commodity
+UNG,United States Natural Gas ETF,commodity
+FXE,Invesco CurrencyShares Euro Trust ETF,commodity
+JJS,iPathA Series B Bloomberg Softs Subindex Total Return ETN,commodity
+WEAT,Teucruim Wheat Fund ETF,commodity
+PLTM,GraniteShares Platinum Trust ETF,commodity
+FUE,ELEMENTS MLCX Biofuels ETN,commodity
+BAR,GraniteShares Gold Trust ETF,commodity
+BTF,Valkyrie Bitcoin Strategy ETF,commodity
+OIL,iPath Pure Beta Crude Oil ETN,commodity
+USO,United States Oil ETF,commodity
+DBP,Invesco DB Precious Metals Fund ETF,commodity
+SIVR,Aberdeen Silver Trust ETF,commodity
+UGA,United States Gasoline Fund ETF,commodity
+JJN,iPath Series B Bloomberg Nickel Subindex Total Return ETN,commodity
+IAUM,iShares Gold Trust Micro ETF,commodity
+GSG,iShares GSCI Commodity-Indexed Trust Fund ETF,commodity
+FXY,Invesco CurrencyShares Japanese Yen Trust ETF,commodity
+SCO,UltraShort (2x) DJ-UBS Crude Oil ETF,commodity
+DBE,Invesco DB Energy Fund ETF,commodity
+BTC-USD,Bitcoin USD,crypto
+ETH-USD,Ethereum USD,crypto
+USDT-USD,Tether USD,crypto
+BNB-USD,BNB USD,crypto
+USDC-USD,USD Coin USD,crypto
+XRP-USD,XRP USD,crypto
+ADA-USD,Cardano USD,crypto
+STETH-USD,Lido Staked ETH USD,crypto
+DOGE-USD,Dogecoin USD,crypto
+HEX-USD,HEX USD,crypto
+MATIC-USD,-,crypto
+SOL-USD,Solana USD,crypto
+WTRX-USD,Wrapped TRON USD,crypto
+DOT-USD,Polkadot USD,crypto
+LTC-USD,-,crypto
+TRX-USD,TRON USD,crypto
+BUSD-USD,Binance USD USD,crypto
+SHIB-USD,Shiba Inu USD,crypto
+AVAX-USD,Avalanche USD,crypto
+DAI-USD,Dai USD,crypto
+WBTC-USD,Wrapped Bitcoin USD,crypto
+LINK-USD,-,crypto
+LEO-USD,-,crypto
+ATOM-USD,Cosmos USD,crypto
+UNI7083-USD,Uniswap USD,crypto
+XMR-USD,Monero USD,crypto
+OKB-USD,OKB USD,crypto
+ETC-USD,Ethereum Classic USD,crypto
+TON11419-USD,Toncoin USD,crypto
+TUSD-USD,TrueUSD USD,crypto
