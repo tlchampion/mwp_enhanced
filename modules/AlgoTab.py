@@ -7,7 +7,7 @@ from pathlib import Path
 # module_path = os.path.abspath(os.path.join('..'))
 # if module_path not in sys.path:
 #     sys.path.append(module_path)
-import modules.algorithmic_functions as af
+
 
 """
 The contents of this file define what is displayed on the 'Algorithmic Trading' tab
@@ -15,56 +15,60 @@ The contents of this file define what is displayed on the 'Algorithmic Trading' 
 
 # setup the values available in the menu dropdown for each portfolio
 
-strategies_by_portfolio = {"conservative": [['Simple Moving Average (SMA)','sma'],
+strategies_by_portfolio = {"conservative": [['Simple Moving Average (SMA)', 'sma'],
                                             ['Moving Average Convergance/Divergence', 'macd'],
-                                            ['Relative Strength Index (RSI)', 'rsi'],
+                                            ['Relative Strength Index (RSI)',
+                                             'rsi'],
                                             ['Stochastic Oscillator', 'stoch'],
                                             ['Bollinger Bands', 'bb'],
-                                           ['Machine Learning Model', 'ml']],
-                           "balanced": [['Simple Moving Average (SMA)','sma'],
-                                            ['Moving Average Convergance/Divergence', 'macd'],
-                                            ['Relative Strength Index (RSI)', 'rsi'],
+                                            ['Machine Learning Model', 'ml']],
+                           "balanced": [['Simple Moving Average (SMA)', 'sma'],
+                                        ['Moving Average Convergance/Divergence', 'macd'],
+                                        ['Relative Strength Index (RSI)',
+                                         'rsi'],
                                         ['Stochastic Oscillator', 'stoch'],
-                                            ['Bollinger Bands', 'bb'],
-                                           ['Machine Learning Model', 'ml']],
-                           "growth": [['Simple Moving Average (SMA)','sma'],
-                                            ['Moving Average Convergance/Divergence', 'macd'],
-                                            ['Relative Strength Index (RSI)', 'rsi'],
+                                        ['Bollinger Bands', 'bb'],
+                                        ['Machine Learning Model', 'ml']],
+                           "growth": [['Simple Moving Average (SMA)', 'sma'],
+                                      ['Moving Average Convergance/Divergence', 'macd'],
+                                      ['Relative Strength Index (RSI)', 'rsi'],
                                       ['Stochastic Oscillator', 'stoch'],
-                                            ['Bollinger Bands', 'bb'],
-                                           ['Machine Learning Model', 'ml']],
-                           "aggressive": [['Simple Moving Average (SMA)','sma'],
-                                            ['Moving Average Convergance/Divergence', 'macd'],
-                                            ['Relative Strength Index (RSI)', 'rsi'],
+                                      ['Bollinger Bands', 'bb'],
+                                      ['Machine Learning Model', 'ml']],
+                           "aggressive": [['Simple Moving Average (SMA)', 'sma'],
+                                          ['Moving Average Convergance/Divergence', 'macd'],
+                                          ['Relative Strength Index (RSI)',
+                                           'rsi'],
                                           ['Stochastic Oscillator', 'stoch'],
-                                            ['Bollinger Bands', 'bb'],
-                                           ['Machine Learning Model', 'ml']],
-                           "alternative": [['Simple Moving Average (SMA)','sma'],
-                                            ['Moving Average Convergance/Divergence', 'macd'],
-                                            ['Relative Strength Index (RSI)', 'rsi'],
+                                          ['Bollinger Bands', 'bb'],
+                                          ['Machine Learning Model', 'ml']],
+                           "alternative": [['Simple Moving Average (SMA)', 'sma'],
+                                           ['Moving Average Convergance/Divergence', 'macd'],
+                                           ['Relative Strength Index (RSI)',
+                                            'rsi'],
                                            ['Stochastic Oscillator', 'stoch'],
-                                            ['Bollinger Bands', 'bb'],
+                                           ['Bollinger Bands', 'bb'],
                                            ['Machine Learning Model', 'ml']]
-                          }
+                           }
 
 # define the descriptions for the strategies
 
-strategies_info = {"sma": ['SMA_signal',"""<p>The Simple Moving Average (SMAx) is the average of a security's price over x days.</p>
+strategies_info = {"sma": ['SMA_signal', """<p>The Simple Moving Average (SMAx) is the average of a security's price over x days.</p>
 
 <p>Our SMA strategy relies on a short and long SMA, where the number of days used to calculate the short SMA is less than that used to calculate the long SMA. If the value for the short SMA becomes greater than the value for the long SMA it increases a 'buy' signal. When the value for the short SMA becomes less than that for the long SMA it generates a 'sell' signal.</p>"""],
-                  "macd": ['MACD_signal', """<p>The Moving Average Convergence Divergence (MACD) is a trend-following momentum indicator that shows the relationship between two exponential moving averages (EMA). EMA is a type of moving average that gives more weight to recent data points compared to Simple Moving Average (SMA), which gives equal weight to all data points in the specified period. </p>
+                   "macd": ['MACD_signal', """<p>The Moving Average Convergence Divergence (MACD) is a trend-following momentum indicator that shows the relationship between two exponential moving averages (EMA). EMA is a type of moving average that gives more weight to recent data points compared to Simple Moving Average (SMA), which gives equal weight to all data points in the specified period. </p>
 <p>
-For our strategy, we calculate a 12-day and 26-day EMA. The difference between these two values is taken, which proves the MACD value. 
+For our strategy, we calculate a 12-day and 26-day EMA. The difference between these two values is taken, which proves the MACD value.
 </p>
 <p>
 Next, a 9-day EMA is taken of the MACD itself, which is referred to as the Moving Average Convergence Divergence Signal (MACDs)
 </p>
 <p>
 Our MACD strategy generates a 'buy' signal if the MACD value is greater than or equal to the MACDs value. If the MACD falls below the MACDs a 'sell' signal is generated.</p>"""],
-                  "rsi": ['RSI_signal', """<p>Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. It ranges from 0 to 100 and is calculated as the average gain of up periods divided by the average loss of down periods over a specified period of time, in our case 14 periods. It is used to identify overbought or oversold conditions in an asset's price, indicating potential trend reversals or trend continuation.</p>
+                   "rsi": ['RSI_signal', """<p>Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. It ranges from 0 to 100 and is calculated as the average gain of up periods divided by the average loss of down periods over a specified period of time, in our case 14 periods. It is used to identify overbought or oversold conditions in an asset's price, indicating potential trend reversals or trend continuation.</p>
 <p>
  Our strategy generates a 'buy' signal if the RSI is equal to or less than 30. A 'sell' signal is generated if the RSI is equal to or greater than 70.</p>"""],
-                   "stoch": ['STOCH_signal', """<p>The Stochastic Oscillator (STOCH) is a momentum indicator that shows the location of a security's close price relative to its high-low range over a certain period of time. STOCHk represents the stochastic oscillator's %K line, which represents the current closing price in relation to the highest and lowest prices over a specified period of time, in our case 14 days. 
+                   "stoch": ['STOCH_signal', """<p>The Stochastic Oscillator (STOCH) is a momentum indicator that shows the location of a security's close price relative to its high-low range over a certain period of time. STOCHk represents the stochastic oscillator's %K line, which represents the current closing price in relation to the highest and lowest prices over a specified period of time, in our case 14 days.
 </p>
 <p>
 Our STOCH strategy generates a 'buy' signal when the STOCHk value is less than 20. A 'sell' signal is generated when the STOCHk value is greater than 80.</p>"""],
@@ -76,9 +80,8 @@ Our STOCH strategy generates a 'buy' signal when the STOCHk value is less than 2
 The model, provided with an optimal set of indicators and information on the securities performance over a period of time, finds patterns and relationships between the indicators in relation to the securites performace. </p>
 <p>
 This learned information is then used by the model to make predictions about future performance based upon current values of the same indicators. This then provides us with our 'buy' or 'sell' signals.</p>"""]
-                                    
-                          }
 
+                   }
 
 
 # define introduction/instructions for tab
@@ -106,12 +109,12 @@ def get_intro():
 
 # return details related to the trading strategies available based upon the portfolio class
 def get_strategy_options(risk):
-    
+
     info = strategies_by_portfolio[risk]
     return info[0], info[1], info[2], info[3], info[4], info[5]
-    
-    
-# return the strategy description for display   
+
+
+# return the strategy description for display
 def get_strategies_info(strategy):
     return strategies_info[strategy][0], strategies_info[strategy][1]
 
@@ -121,24 +124,22 @@ def get_strategies_info(strategy):
 def get_performance_data(portfolio_class, strategy):
     file = f"performance_data_{strategy}_{portfolio_class}.csv"
     df = pd.read_csv(Path(f"./data/performance/{file}"),
-                 index_col='index', parse_dates=True, infer_datetime_format=True)
-    
-    
+                     index_col='index', parse_dates=True, infer_datetime_format=True)
+
     figure = make_performance_graph(portfolio_class, df)
     roi = calculate_roi(df)
     compare = make_comparison_graph(portfolio_class, df)
-    
+
     return figure, roi, compare
 
 
 # creat graph showing total portfolio value over time
-def make_performance_graph(portfolio_class,df):
+def make_performance_graph(portfolio_class, df):
 
-    
     text = f"{portfolio_class.title()} Portfolio (with strategy)"
     text2 = f"{portfolio_class.title()} Portfolio (without strategy)"
     title = f"{portfolio_class.title()} Value over Time"
-    fig0 = Figure(figsize=(16,8))
+    fig0 = Figure(figsize=(16, 8))
     ax = fig0.subplots()
     chart = ax.plot(df['Portfolio Total'])
 
@@ -149,36 +150,36 @@ def make_performance_graph(portfolio_class,df):
 
 # graph comparison of strategy investment, portfolio performance with out
 # applying the strategy and the S&P 500
+
+
 def make_comparison_graph(portfolio_class, df):
     # market_data = pd.read_csv(Path(f"./data/at_market_data.csv"),
     #              index_col='index', parse_dates=True, infer_datetime_format=True)
     text = f"{portfolio_class.capitalize()} Portfolio (Strategy)"
     text2 = f"{portfolio_class.capitalize()} Portfolio (No Strategy)"
     title = f"{portfolio_class.capitalize()} Portfolio Cumulative Returns vs S&P 500"
-    fig0 = Figure(figsize=(16,8))
+    fig0 = Figure(figsize=(16, 8))
     ax = fig0.subplots()
     #ax = port_cum_returns.plot(figsize=(10,5), title="Cumulative Returns of Conservative Portfolio vs S&P 500")
-    #gmarket_cum_returns.plot(ax=ax)
+    # gmarket_cum_returns.plot(ax=ax)
     chart = ax.plot(df['Portfolio Cumulative Returns'])
     # ax.plot(market_data['market_cum_returns'])
     ax.plot(df['Market Cumulative Returns'])
     ax.plot(df['Base Cumulative Returns'])
     ax.set_title(title)
     ax.legend([text,
-         'S&P',
+               'S&P',
               text2])
-    
+
     return fig0
 
 
 # calculate ROI for portfolio
-def calculate_roi(df): 
+def calculate_roi(df):
     # market_data = pd.read_csv(Path(f"./data/at_market_data.csv"),
     #              index_col='index', parse_dates=True, infer_datetime_format=True)
     # roi_strategy = (data.iloc[-1,:]['Portfolio Total'] - initial_investment) / initial_investment * 100
-    roi_strategy = df.iloc[-1,]['Portfolio Cumulative Returns'] * 100
-    roi_nostrategy = df.iloc[-1,]['Base Cumulative Returns'] * 100
-    roi_market = df.iloc[-1,]['Market Cumulative Returns'] * 100
+    roi_strategy = df.iloc[-1, ]['Portfolio Cumulative Returns'] * 100
+    roi_nostrategy = df.iloc[-1, ]['Base Cumulative Returns'] * 100
+    roi_market = df.iloc[-1, ]['Market Cumulative Returns'] * 100
     return [roi_strategy, roi_nostrategy, roi_market]
-    
-    
