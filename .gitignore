@@ -2,6 +2,7 @@
 .vscode
 .env
 modeling/hp/
+modeling2/mlruns/
 # images/
 # data/
 # MCdata/
